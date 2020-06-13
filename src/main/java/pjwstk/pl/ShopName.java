@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 public @interface ShopName {
     public String key() default "";
 
-    String message() default "Invalid data";
+    String message() default "invalid name shop";
 
     Class<?>[] groups() default {};
 

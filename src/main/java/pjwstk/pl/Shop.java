@@ -18,9 +18,6 @@ public class Shop {
 
     }
 
-
-
-
     public int getId() {
         return id;
     }
