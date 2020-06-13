@@ -1,8 +1,11 @@
 package pjwstk.pl;
 
+import javax.validation.constraints.NotNull;
+
 public class Product {
     private int id;
     private String name;
+    @NotNull
     private double  price;
 
     public Product(int id, String name, double price) {

@@ -7,16 +7,19 @@ import java.util.List;
 
 public class Shop {
     private int id;
+    @ShopName
     private String name;
     private List<Product> availableProduct = new ArrayList<Product>();
     private List<Product> soldProduct = new ArrayList<Product>();
 
-    public Shop(int id, String name, List<Product> availableProduct, List<Product> soldProduct) {
+    public Shop(int id, String name) {
         this.id = id;
         this.name = name;
-        this.availableProduct = availableProduct;
-        this.soldProduct = soldProduct;
+
     }
+
+
+
 
     public int getId() {
         return id;
